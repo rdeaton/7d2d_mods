@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <ModInfo>
+    <Name value="CraftingImproved" />
+    <Description value="Take the tedium out of running your workshop" />
+    <Author value="mirashii" />
+    <Version value="19.1.Release1" />
+    <Website value="https://rdeaton.space/7d2d/" />
+  </ModInfo>
+  <DMT>
+    <dependencies />
+    <conflicts />
+  </DMT>
+</xml>

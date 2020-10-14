@@ -1,0 +1,26 @@
+<CraftingImproved name="blocks.xml">
+    <append xpath="/blocks">
+        <block name="ci_storage_input">
+            <property name="CreativeMode" value="Player"/>
+            <property name="Shape" value="New"/>
+            <property name="Model" value="cube"/>
+            <property name="DescriptionKey" value="ci_storage_input_desc"/>
+            <property name="Tags" value="door"/>
+            <property name="Class" value="StorageInputSecureLoot, Mods"/>
+            <property name="LootList" value="5"/>
+            <property name="Material" value="MwoodReinforced"/>
+            <property name="MaxDamage" value="400"/>
+            <property name="Texture" value="572"/>
+            <property name="UseGlobalUV" value="L,L,L,L,L,L"/>
+            <property name="FuelValue" value="300"/>
+            <property class="RepairItems">
+                <property name="resourceWood" value="10"/>
+            </property>
+            <!-- <property name="DowngradeBlock" value="cntStorageGenericInsecure"/> -->
+            <drop event="Destroy" count="0"/>
+            <property name="Group" value="Building,advBuilding"/>
+            <property name="EconomicValue" value="6"/>
+            <property name="FilterTags" value="floot"/>
+        </block>
+    </append>
+</CraftingImproved>
