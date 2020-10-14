@@ -1,0 +1,27 @@
+<ZZInventorySearch name="controls.xml">
+    <append xpath="/controls">
+        <zzis_backpack_search>
+            <panel	depth="5"
+                    pos="22,-7"
+                    size="240,30"
+                    style="select"
+                    controller="TextInput"
+                    value="SEARCH"
+                    active_text_color="[white]"
+                    caret_color="[white]"
+                    selection_color="[mediumGrey_half_alpha]"
+                    character_limit="30"
+                    validation="none"
+                    backgroundcolor="[black]"
+                    on_press="true"
+                    snapCursor="true"
+                    virtual_keyboard_prompt="vkPromptSearchTerm"
+                    search_field="true" >
+                <sprite name="searchIcon" depth="1" pos="-30,-15" size="26,26" sprite="ui_game_symbol_search" pivot="center" />
+                <sprite name="background" depth="0" size="240,30" sprite="smxlib_ui_game_element_searchinput_background" color="[black]" type="sliced"/>
+                <sprite name="frame" depth="1" size="240,30" sprite="smxlib_ui_game_element_searchinput_frame" color="[white]" type="sliced"/>
+                <label name="text" depth="1" pos="0,-3" font_size="22" crispness="Never" effect="outline" effect_distance="1,1" upper_case="false" justify="center" pivot="topleft" />
+            </panel>
+        </zzis_backpack_search>
+    </append>
+</ZZInventorySearch>

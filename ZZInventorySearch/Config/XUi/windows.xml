@@ -1,0 +1,19 @@
+<ZZInventorySearch name="windows.xml">
+<!-- This assumes we're using the SMX Big Backpack XXL -->
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='SMXuiWindowBackpack']/panel[@name='SMXuiCurrency']/@pos">270,-680</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='SMXuiWindowBackpack']/panel[@name='SMXuiCurrency']/sprite[@name='background']/@size">50,30</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='SMXuiWindowBackpack']/panel[@name='SMXuiCurrency']/sprite[@name='frame']/@size">158,30</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='SMXuiWindowBackpack']/panel[@name='SMXuiCurrency']/label[@name='currency']/@size">100,28</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='SMXuiWindowBackpack']/panel[@name='SMXuiCurrency']/label[@name='currency']/@pos">159,-9</set>
+	<set xpath="/windows/window[@name='windowBackpack']/@controller">mirashii_BackpackWindow, Mods</set>
+
+	<append xpath="/windows/window[@name='windowBackpack']/panel[@name='SMXuiWindowBackpack']">
+		<panel name="ZZInventorySearch" depth="3" pos="30,-680" height="43" disableautobackground="true">
+			<rect name="searchControls" depth="4" pos="0,0" size="300,40">
+				<panel pos="30,2" width="300" disableautobackground="true">
+					<zzis_backpack_search name="searchInput" depth="5" />
+				</panel>
+			</rect>
+		</panel>
+	</append>
+</ZZInventorySearch>

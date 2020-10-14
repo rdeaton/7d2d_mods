@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="ZZInventorySearch" />
+		<Description value="An extension modlet for SMXUi to add an inventory search" />
+		<Author value="mirashii" />
+		<Version value="19.1.Release1" />
+		<Website value="https://rdeaton.space/7d2d/" />
+	</ModInfo>
+</xml>
