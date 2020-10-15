@@ -46,4 +46,10 @@ public class ImprovedTileEntitySecureLootContainer : TileEntitySecureLootContain
         }
         Debug.Log("AHH TICK");
     }
+
+    public override TileEntityType GetTileEntityType()
+	{
+        // TileEntityType.SecureLootSigned is the highest member of the enum at 0x16.
+		return (TileEntityType) 0x17;
+	}
 }
